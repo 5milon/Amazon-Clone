@@ -6,6 +6,13 @@
     box-sizing: border-box;
     font-family: "Outfit", system-ui;
 }
+body{
+    background-color: #f6f8fa;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 nav{
     background-color: #131921;
@@ -26,7 +33,7 @@ nav{
 }
 .nav-country img{
     margin-bottom: 5px;
-    
+
 }
 .nav-country p{
     font-size: 8px;
@@ -124,4 +131,25 @@ nav{
 
  .nav-text h1{
     font-size: 14px;
+ }
+
+ .nav-cart{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+ }
+
+ .nav-bottom{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 8px 20px;
+    background-color: #232f3e;
+    color: #fff;
+    font-size: 15px;
+ }
+ .nav-bottom div{
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
  }
